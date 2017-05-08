@@ -1,0 +1,20 @@
+# Deployment
+gunicorn>=19.1.1
+
+# Flask
+flask==0.12.1
+Werkzeug==0.11.15
+click>=5.0
+Flask-DebugToolbar==0.10.0
+
+# Data
+subprocess32
+fuzzywuzzy==0.15.0
+
+# TFIDF
+newspaper==0.0.9.8
+
+# Computer Vision
+numpy
+
+
