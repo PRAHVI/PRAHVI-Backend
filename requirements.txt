@@ -13,6 +13,7 @@ fuzzywuzzy==0.15.0
 
 # TFIDF
 newspaper==0.0.9.8
+jupyter
 
 # Computer Vision
 numpy

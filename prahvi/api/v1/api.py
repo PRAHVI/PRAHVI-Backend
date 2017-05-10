@@ -42,12 +42,12 @@ def getTextFromImageUsingTesseract4():
 
 @blueprint.route('/text/tfidf/', methods=['POST'])
 def getTFIDIF():
-    text = request.get_json() # Figure out what to do 
+    text = request.get_json() 
     text = text.get('text')
 
     tfidf = TFIDF(text)
 
-    return jsonify({ 'result': tfidf })
+    return jsonify({ 'result': tfidf.result })
 
 
 @blueprint.route('/text/compare/', methods=['POST'])
